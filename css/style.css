@@ -1,0 +1,30 @@
+body {
+  background: #fefefe;
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 a {
+  display: block;
+  color: #f24c27;
+  font-weight: bold;
+}
+h1 a .angle-brackets {
+  color: #56b9d0;
+  font-weight: bold;
+}
+h1 a .logo-workroom {
+  color: #fefefe;
+  font-weight: normal;
+}
+.navbar {
+  background: #3b3f42;
+}
+.nav-item a {
+  color: #56b9d0;
+  text-transformation: uppercase;
+}
