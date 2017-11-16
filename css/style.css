@@ -1,30 +1,52 @@
-body {
-  background: #fefefe;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
 }
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
+header {
+  background: #3b3f42;
+  color: #fefefe;
 }
 h1 a {
-  display: block;
   color: #f24c27;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 700;
+}
+h1 a:hover {
+  color: #f24c27;
+  text-decoration: none;
 }
 h1 a .angle-brackets {
   color: #56b9d0;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 700;
 }
-h1 a .logo-workroom {
+h1 a .light-span {
+  font-size: 40px;
+  font-weight: 300;
   color: #fefefe;
-  font-weight: normal;
 }
-.navbar {
-  background: #3b3f42;
+header nav {
+  text-align: right;
 }
-.nav-item a {
+header nav a {
   color: #56b9d0;
-  text-transformation: uppercase;
+  font-size: 20px;
+  display: inline-block;
+  padding: 30px 20px;
+  text-transform: uppercase;
+  transition: color 0.4s;
+}
+.active {
+  color: #fbba42;
+}
+header nav a:hover {
+  color: #fbba42;
+  text-decoration: none;
+}
+img {
+  max-height: 600px;
 }
